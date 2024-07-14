@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="logo">
+        <img src="/amazon-logo.png" alt="amazon.in" width="250">
+        
+    </div>
+    <div class="card">
+       
+        <h2>Create Account</h2>
+        <form class="amazon" action="get">
+            <div>
+                <label for="username">Your name</label><br>
+                <input type="text" name="username" id="username" placeholder="First and last name" required size="29">
+            </div>
+            <div><label for="mobile-number">Mobile number</label><br>
+
+                <input class="tel" type="tel" name="mobile-number" id="mobile-number" maxlength="4" value="IN+91" size="3">
+                <input type="tel" name="mobile-number" id="mobile-number" size="20" required>
+                
+            </div>
+            <div class="mnumber">
+                <label for="email">Email (optional)</label><br>
+                <input type="email" name="useremail" id="useremail" size="29">
+
+            </div>
+            <div>
+                <label for="password">Password</label><br>
+                <input type="password" name="password" id="password" placeholder="At least 6 characters" minlength="6" size="29"><br>
+                <p class="pass">&ifr; <small>Password must be at least 6 charactors</small></p>
+                </div>
+                
+                <p>
+                    By enrolling your mobile phone number,
+                    you consent to receive automated security
+                    notifications via text messafe from Amazon.
+                    message and data rates may apply
+                </p>
+                <button type="submit">Continue</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+*{
+    font-family:  sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+.logo{
+    margin-left: 50px;
+   
+}
+.card{
+    /* margin-top: 50px; */
+    margin-left: 50px;
+    width: 260px;
+    border: 2px solid rgb(233, 229, 229);
+    padding: 10px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+.card div{
+    padding: 10px;
+}
+.card button{
+    margin-top: 15px;
+    padding-left: 200px;
+    text-align: center;
+    padding: 6px 100px 6px 100px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(252, 231, 44);
+    cursor: pointer;
+}
+.card p{
+    font-size: small;
+}
+.card label{
+    font-size: small;
+    font-weight: bold;
+    
+}
+.card input{
+    height: 23px;
+    margin-top: 4px;
+}
+  .tel{
+    border-radius: 6px;
+    padding-left: 5px;
+    border-color: gray;
+    
+ }
+ .pass{
+    color: deepskyblue;
+    font-size:large;
+    padding-top: 5px;
+ }
+ .pass small{
+    color: black;
+    font-size: 11px;
+ }
+  
+ 
